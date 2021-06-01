@@ -1,4 +1,4 @@
-#Understand JavaScript Arrays
+# Understand JavaScript Arrays
 
 
 https://egghead.io/courses/understand-javascript-arrays
