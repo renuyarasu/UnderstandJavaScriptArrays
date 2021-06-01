@@ -1,10 +1,28 @@
 // JavaScript: Array.concat()
 
-let items = [1, 2, 3];
-// let newItems = items.concat(4, 5, 6);
+let people1 = [
+  {
+    name: "VedaGna",
+  },
+  {
+    name: "Renu",
+  },
+];
+let people2 = [
+  {
+    name: "Hindu",
+  },
+  {
+    name: "Gnapika",
+  },
+];
 
-// let newItems = items.concat(4, 5, 6, 'Test', undefined);
 
-let newItems = items.concat([4, 5, 6], [7, 8, 9]);
+// people1.forEach(function(person){
+//     console.log(person.name);
+// })
 
-console.log(newItems);
+
+people1.concat(people2).forEach(function(person){
+    console.log(person.name);
+})
