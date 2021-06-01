@@ -1,14 +1,10 @@
-// JavaScript: Data Types - String
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+// JavaScript: Array.concat()
 
-// String • Number • BigInt • Boolean • undefined • null • Symbol • Object
-// https://www.programiz.com/javascript/data-types
+let items = [1, 2, 3];
+// let newItems = items.concat(4, 5, 6);
 
-const greeting = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, necessitatibus";
-const result = greeting.substring(0, 5);
+// let newItems = items.concat(4, 5, 6, 'Test', undefined);
 
-// console.log(result.toUpperCase());
-console.log(greeting.split(' ').length);
-// Split method splits the string the return an array of world
+let newItems = items.concat([4, 5, 6], [7, 8, 9]);
 
-
+console.log(newItems);
