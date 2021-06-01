@@ -1,10 +1,6 @@
-// JavaScript: Array - Flat
-/**
- *  const number = [10, 20, [30, [40, 50]]];
-    const newNumber = number.flat(2);// two level flat
-    const newNumber = number.flat(Infinity);
-    console.log(newNumber);
- */
-const gaps = [1,2,,3,4,,5];
-const removeGaps = gaps.flat();
-console.log(removeGaps);
+// JavaScript: Array - Find/Filter
+
+const numbers = [1,2,3,4,5]
+// const result = numbers.find( number => number > 3);
+const result = numbers.filter( number => number > 3);
+console.log(result);
